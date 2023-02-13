@@ -1,0 +1,28 @@
+HELP PAGE
+SELECTING A CELL
+	 Cells can be selected by:
+		a) clicking on the desired cell
+		b) using the arrow keys to navigate to the cell
+	In either case the name of the cell will be displayed in the "Cell Name" text box in the header along with its respective value and contents next to that.
+EDITING CELL CONTENTS
+	1) To be edited, a cell must be selected. In the same header where we found the cell name, verify that the displayed name matches the cell you want to edit.  
+	2) Click on the text box following the lable "formula." Here you can add a numerical value, words, or a Formula. The formula will be described later.
+ENTERING A GENERIC FORMULA
+	This spreadsheet can evaluate formulas! To use formulas, make sure that you have entered normal, floating point numbers into the cells you want to be used in this relationship
+	-To use a formula
+	1) Select the cell you want to eventually hold the formula data using the methods descirbed above. Make sure to verify your cell name by checking the name property!
+	2) In the "Formula" text box, type an equals ('=') character followed by the cells you want to operate against.
+	Only the following operators may be used:
+	- ( *, / ) Multiplication, Division
+	- ( +, - ) Addition, Subtraction
+	- Exponents are unsupported
+	Note: Operations cannot be performed without at least two values, parentheses must have the same number of open and close parentheses.
+OPERATING ON CELLS
+	This Spreadsheet can operate on cell names! Cells have to have a numeric value or your spreadsheet will report a numeric value.
+	To use cells in your formula
+	1) Consider the formula "=2 + 2"
+		-This evaluates to four
+	2) Consider a spread sheet where "A1 = 2" and "A2 = 2"
+		- This will also evaluate to four! 
+		NOTE: All cell names must be of the form of a letter followed by a number. Letters are case insensitive, but must be only a single letter. Numbers may be any value [1 - 99] (one through ninety-nine).
+	

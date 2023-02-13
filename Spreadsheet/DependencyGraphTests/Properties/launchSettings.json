@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DependencyGraphTests": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
